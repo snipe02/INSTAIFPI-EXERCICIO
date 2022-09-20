@@ -4,18 +4,25 @@
     src: url(Nabla-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'LetraPerfil';
+    src: url(Cantarell-Regular.ttf);
+}
+
 div.cabeca{
     margin-bottom: 10px;
+    width: 60%;
+    margin-left: 25%;
 }
 
 header {
-    border: 1px solid yellow;
+    border: 1px solid black;
     background: black;
 }
 
 header h1{
     position: absolute;
-    margin-left: 500px;
+    margin-left: 240px;
     font-size: 100px;
     margin-top: -19px;
     font-family: LetraLinda;
@@ -33,5 +40,52 @@ body{
 }
 
 div.corpo{
-    border: 1px solid yellow;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width: 60%;
+    margin-left:25%;
+    margin-top: -5px;
+}
+
+div.corpo img.perfil{
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+div.corpo p{
+    margin-top: -55px;
+    margin-left: 60px;
+    font-family: LetraPerfil;
+    padding: 10px;
+}
+
+div.corpo img.foto{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:-5px;
+    width: 100%;
+}
+
+div.corpo p.comentario{
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+div.corpo p.titulo{
+    margin-left:5px;
+    margin-top:-30px;
+}
+
+div.corpo p.final{
+    color:gray;
+    margin-left:4px;
+    margin-top: -30px;
+}
+
+div.corpo p.rodape{
+    font-size: 12px;
+    color: gray;
+    margin-left: 7px;
+    margin-top: -25px;
 }
